@@ -906,7 +906,7 @@ Source: Microchip Packaging Specification, revision CE
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PIC18(L)F45K50-?(44PIN)" prefix="IC">
+<deviceset name="PIC18(L)F45K50-?(44PIN)" prefix="U">
 <description>&lt;strong&gt;44-Pin, Low-Power, High-Performance Microcontrollers with XLP Technology&lt;/strong&gt;</description>
 <gates>
 <gate name="G$1" symbol="PIC18(L)F45K50(44PIN)" x="0" y="0"/>
@@ -964,7 +964,7 @@ Source: Microchip Packaging Specification, revision CE
 </device>
 </devices>
 </deviceset>
-<deviceset name="PIC18(L)F45K50-?(40PIN)" prefix="IC">
+<deviceset name="PIC18(L)F45K50-?(40PIN)" prefix="U">
 <description>&lt;strong&gt;40-Pin, Low-Power, High-Performance Microcontrollers with XLP Technology&lt;/strong&gt;</description>
 <gates>
 <gate name="G$1" symbol="PIC18(L)F45K50(40PIN)" x="0" y="0"/>
@@ -1066,7 +1066,7 @@ Source: Microchip Packaging Specification, revision CE
 </device>
 </devices>
 </deviceset>
-<deviceset name="PIC18(L)F2XK50-?" prefix="IC">
+<deviceset name="PIC18(L)F2XK50-?" prefix="U">
 <description>&lt;strong&gt;28-Pin, Low-Power, High-Performance Microcontrollers with XLP Technology&lt;/strong&gt;</description>
 <gates>
 <gate name="G$1" symbol="PIC18(L)F2XK50" x="0" y="0"/>

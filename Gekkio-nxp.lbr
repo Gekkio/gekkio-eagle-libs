@@ -1152,7 +1152,7 @@ Soldering footprint: Educated guesswork based on NXP SOT1202 Package Information
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="74ALVC164245" prefix="IC">
+<deviceset name="74ALVC164245" prefix="U">
 <description>&lt;strong&gt;16-bit dual supply translating transceiver; 3-state&lt;/strong&gt;</description>
 <gates>
 <gate name="A" symbol="74ALVC164245" x="0" y="0"/>
@@ -1325,7 +1325,7 @@ Soldering footprint: Educated guesswork based on NXP SOT1202 Package Information
 </device>
 </devices>
 </deviceset>
-<deviceset name="74LVC4245A" prefix="IC">
+<deviceset name="74LVC4245A" prefix="U">
 <description>&lt;strong&gt;Octal dual supply translating transceiver; 3-state&lt;/strong&gt;</description>
 <gates>
 <gate name="A" symbol="74LVC4245A" x="0" y="0"/>
@@ -1457,7 +1457,7 @@ Soldering footprint: Educated guesswork based on NXP SOT1202 Package Information
 </device>
 </devices>
 </deviceset>
-<deviceset name="74*1G07" prefix="IC">
+<deviceset name="74*1G07" prefix="U">
 <description>&lt;strong&gt;Buffer with open-drain output&lt;/strong&gt;</description>
 <gates>
 <gate name="A" symbol="7407" x="2.54" y="0"/>
@@ -1536,7 +1536,7 @@ Soldering footprint: Educated guesswork based on NXP SOT1202 Package Information
 </device>
 </devices>
 </deviceset>
-<deviceset name="74*1G32" prefix="IC">
+<deviceset name="74*1G32" prefix="U">
 <description>&lt;strong&gt;Single 2-input OR gate&lt;/strong&gt;</description>
 <gates>
 <gate name="A" symbol="7432" x="0" y="0"/>
