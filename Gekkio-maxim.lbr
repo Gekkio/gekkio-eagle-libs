@@ -142,8 +142,8 @@ Source: Maxim document 21-0043 (rev E)
 <symbols>
 <symbol name="MAX603/MAX604">
 <pin name="IN" x="-15.24" y="12.7" length="middle" direction="pwr"/>
-<pin name="!OFF" x="-15.24" y="10.16" length="middle" function="dot"/>
-<pin name="OUT" x="15.24" y="12.7" length="middle" direction="sup" rot="R180"/>
+<pin name="!OFF" x="-15.24" y="10.16" length="middle" direction="in" function="dot"/>
+<pin name="OUT" x="15.24" y="12.7" length="middle" direction="pwr" rot="R180"/>
 <pin name="SET" x="15.24" y="10.16" length="middle" direction="pas" rot="R180"/>
 <pin name="GND@1" x="-15.24" y="7.62" length="middle" direction="pwr"/>
 <pin name="GND@2" x="-15.24" y="5.08" length="middle" direction="pwr"/>

@@ -1034,14 +1034,14 @@ Soldering footprint: Educated guesswork based on NXP SOT1202 Package Information
 <pin name="2!OE" x="17.78" y="-27.94" length="middle" direction="in" rot="R180"/>
 <pin name="1DIR" x="17.78" y="-17.78" length="middle" direction="in" rot="R180"/>
 <pin name="2DIR" x="17.78" y="-20.32" length="middle" direction="in" rot="R180"/>
-<pin name="2A0" x="-17.78" y="5.08" length="middle"/>
-<pin name="2A1" x="-17.78" y="2.54" length="middle"/>
-<pin name="2A2" x="-17.78" y="0" length="middle"/>
-<pin name="2A3" x="-17.78" y="-2.54" length="middle"/>
-<pin name="2A4" x="-17.78" y="-5.08" length="middle"/>
-<pin name="2A5" x="-17.78" y="-7.62" length="middle"/>
-<pin name="2A6" x="-17.78" y="-10.16" length="middle"/>
-<pin name="2A7" x="-17.78" y="-12.7" length="middle"/>
+<pin name="2A0" x="-17.78" y="5.08" length="middle" direction="hiz"/>
+<pin name="2A1" x="-17.78" y="2.54" length="middle" direction="hiz"/>
+<pin name="2A2" x="-17.78" y="0" length="middle" direction="hiz"/>
+<pin name="2A3" x="-17.78" y="-2.54" length="middle" direction="hiz"/>
+<pin name="2A4" x="-17.78" y="-5.08" length="middle" direction="hiz"/>
+<pin name="2A5" x="-17.78" y="-7.62" length="middle" direction="hiz"/>
+<pin name="2A6" x="-17.78" y="-10.16" length="middle" direction="hiz"/>
+<pin name="2A7" x="-17.78" y="-12.7" length="middle" direction="hiz"/>
 <pin name="GND@2" x="-17.78" y="-20.32" length="middle" direction="pwr"/>
 <pin name="GND@3" x="-17.78" y="-22.86" length="middle" direction="pwr"/>
 <pin name="GND@4" x="-17.78" y="-25.4" length="middle" direction="pwr"/>
@@ -1050,30 +1050,30 @@ Soldering footprint: Educated guesswork based on NXP SOT1202 Package Information
 <pin name="GND@7" x="-17.78" y="-33.02" length="middle" direction="pwr"/>
 <pin name="GND@8" x="-17.78" y="-35.56" length="middle" direction="pwr"/>
 <pin name="GND@1" x="-17.78" y="-17.78" length="middle" direction="pwr"/>
-<pin name="1B0" x="17.78" y="27.94" length="middle" rot="R180"/>
-<pin name="1B1" x="17.78" y="25.4" length="middle" rot="R180"/>
-<pin name="1B2" x="17.78" y="22.86" length="middle" rot="R180"/>
-<pin name="1B3" x="17.78" y="20.32" length="middle" rot="R180"/>
-<pin name="1B4" x="17.78" y="17.78" length="middle" rot="R180"/>
-<pin name="1B5" x="17.78" y="15.24" length="middle" rot="R180"/>
-<pin name="1B6" x="17.78" y="12.7" length="middle" rot="R180"/>
-<pin name="1B7" x="17.78" y="10.16" length="middle" rot="R180"/>
-<pin name="2B0" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="2B1" x="17.78" y="2.54" length="middle" rot="R180"/>
-<pin name="2B2" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="2B3" x="17.78" y="-2.54" length="middle" rot="R180"/>
-<pin name="2B4" x="17.78" y="-5.08" length="middle" rot="R180"/>
-<pin name="2B5" x="17.78" y="-7.62" length="middle" rot="R180"/>
-<pin name="2B6" x="17.78" y="-10.16" length="middle" rot="R180"/>
-<pin name="2B7" x="17.78" y="-12.7" length="middle" rot="R180"/>
-<pin name="1A0" x="-17.78" y="27.94" length="middle"/>
-<pin name="1A1" x="-17.78" y="25.4" length="middle"/>
-<pin name="1A2" x="-17.78" y="22.86" length="middle"/>
-<pin name="1A3" x="-17.78" y="20.32" length="middle"/>
-<pin name="1A4" x="-17.78" y="17.78" length="middle"/>
-<pin name="1A5" x="-17.78" y="15.24" length="middle"/>
-<pin name="1A6" x="-17.78" y="12.7" length="middle"/>
-<pin name="1A7" x="-17.78" y="10.16" length="middle"/>
+<pin name="1B0" x="17.78" y="27.94" length="middle" direction="hiz" rot="R180"/>
+<pin name="1B1" x="17.78" y="25.4" length="middle" direction="hiz" rot="R180"/>
+<pin name="1B2" x="17.78" y="22.86" length="middle" direction="hiz" rot="R180"/>
+<pin name="1B3" x="17.78" y="20.32" length="middle" direction="hiz" rot="R180"/>
+<pin name="1B4" x="17.78" y="17.78" length="middle" direction="hiz" rot="R180"/>
+<pin name="1B5" x="17.78" y="15.24" length="middle" direction="hiz" rot="R180"/>
+<pin name="1B6" x="17.78" y="12.7" length="middle" direction="hiz" rot="R180"/>
+<pin name="1B7" x="17.78" y="10.16" length="middle" direction="hiz" rot="R180"/>
+<pin name="2B0" x="17.78" y="5.08" length="middle" direction="hiz" rot="R180"/>
+<pin name="2B1" x="17.78" y="2.54" length="middle" direction="hiz" rot="R180"/>
+<pin name="2B2" x="17.78" y="0" length="middle" direction="hiz" rot="R180"/>
+<pin name="2B3" x="17.78" y="-2.54" length="middle" direction="hiz" rot="R180"/>
+<pin name="2B4" x="17.78" y="-5.08" length="middle" direction="hiz" rot="R180"/>
+<pin name="2B5" x="17.78" y="-7.62" length="middle" direction="hiz" rot="R180"/>
+<pin name="2B6" x="17.78" y="-10.16" length="middle" direction="hiz" rot="R180"/>
+<pin name="2B7" x="17.78" y="-12.7" length="middle" direction="hiz" rot="R180"/>
+<pin name="1A0" x="-17.78" y="27.94" length="middle" direction="hiz"/>
+<pin name="1A1" x="-17.78" y="25.4" length="middle" direction="hiz"/>
+<pin name="1A2" x="-17.78" y="22.86" length="middle" direction="hiz"/>
+<pin name="1A3" x="-17.78" y="20.32" length="middle" direction="hiz"/>
+<pin name="1A4" x="-17.78" y="17.78" length="middle" direction="hiz"/>
+<pin name="1A5" x="-17.78" y="15.24" length="middle" direction="hiz"/>
+<pin name="1A6" x="-17.78" y="12.7" length="middle" direction="hiz"/>
+<pin name="1A7" x="-17.78" y="10.16" length="middle" direction="hiz"/>
 <wire x1="-12.7" y1="38.1" x2="-12.7" y2="-38.1" width="0.4064" layer="94"/>
 <wire x1="-12.7" y1="-38.1" x2="12.7" y2="-38.1" width="0.4064" layer="94"/>
 <wire x1="12.7" y1="-38.1" x2="12.7" y2="38.1" width="0.4064" layer="94"/>
@@ -1087,23 +1087,23 @@ Soldering footprint: Educated guesswork based on NXP SOT1202 Package Information
 <pin name="VCCB@1" x="17.78" y="17.78" length="middle" direction="pwr" rot="R180"/>
 <pin name="DIR" x="17.78" y="-12.7" length="middle" direction="in" rot="R180"/>
 <pin name="!OE" x="17.78" y="-15.24" length="middle" direction="in" function="dot" rot="R180"/>
-<pin name="A0" x="-17.78" y="10.16" length="middle"/>
-<pin name="A1" x="-17.78" y="7.62" length="middle"/>
-<pin name="A2" x="-17.78" y="5.08" length="middle"/>
-<pin name="A3" x="-17.78" y="2.54" length="middle"/>
-<pin name="A4" x="-17.78" y="0" length="middle"/>
-<pin name="A5" x="-17.78" y="-2.54" length="middle"/>
-<pin name="A6" x="-17.78" y="-5.08" length="middle"/>
-<pin name="A7" x="-17.78" y="-7.62" length="middle"/>
+<pin name="A0" x="-17.78" y="10.16" length="middle" direction="hiz"/>
+<pin name="A1" x="-17.78" y="7.62" length="middle" direction="hiz"/>
+<pin name="A2" x="-17.78" y="5.08" length="middle" direction="hiz"/>
+<pin name="A3" x="-17.78" y="2.54" length="middle" direction="hiz"/>
+<pin name="A4" x="-17.78" y="0" length="middle" direction="hiz"/>
+<pin name="A5" x="-17.78" y="-2.54" length="middle" direction="hiz"/>
+<pin name="A6" x="-17.78" y="-5.08" length="middle" direction="hiz"/>
+<pin name="A7" x="-17.78" y="-7.62" length="middle" direction="hiz"/>
 <pin name="GND@1" x="-17.78" y="-12.7" length="middle" direction="pwr"/>
-<pin name="B0" x="17.78" y="10.16" length="middle" rot="R180"/>
-<pin name="B1" x="17.78" y="7.62" length="middle" rot="R180"/>
-<pin name="B2" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="B3" x="17.78" y="2.54" length="middle" rot="R180"/>
-<pin name="B4" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="B5" x="17.78" y="-2.54" length="middle" rot="R180"/>
-<pin name="B6" x="17.78" y="-5.08" length="middle" rot="R180"/>
-<pin name="B7" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="B0" x="17.78" y="10.16" length="middle" direction="hiz" rot="R180"/>
+<pin name="B1" x="17.78" y="7.62" length="middle" direction="hiz" rot="R180"/>
+<pin name="B2" x="17.78" y="5.08" length="middle" direction="hiz" rot="R180"/>
+<pin name="B3" x="17.78" y="2.54" length="middle" direction="hiz" rot="R180"/>
+<pin name="B4" x="17.78" y="0" length="middle" direction="hiz" rot="R180"/>
+<pin name="B5" x="17.78" y="-2.54" length="middle" direction="hiz" rot="R180"/>
+<pin name="B6" x="17.78" y="-5.08" length="middle" direction="hiz" rot="R180"/>
+<pin name="B7" x="17.78" y="-7.62" length="middle" direction="hiz" rot="R180"/>
 <wire x1="-12.7" y1="20.32" x2="-12.7" y2="-20.32" width="0.4064" layer="94"/>
 <wire x1="-12.7" y1="-20.32" x2="12.7" y2="-20.32" width="0.4064" layer="94"/>
 <wire x1="12.7" y1="-20.32" x2="12.7" y2="20.32" width="0.4064" layer="94"/>
