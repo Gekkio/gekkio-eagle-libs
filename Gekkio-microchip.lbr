@@ -1031,6 +1031,20 @@ Source: Microchip Packaging Specification, revision CE
 <text x="0" y="5.842" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-8.382" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
 </symbol>
+<symbol name="MCP16251/2(6PIN)">
+<pin name="VIN" x="-15.24" y="0" length="middle" direction="pwr"/>
+<pin name="VOUT" x="15.24" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="SW" x="-15.24" y="2.54" length="middle" direction="pas"/>
+<pin name="EN" x="-15.24" y="-2.54" length="middle" direction="in"/>
+<pin name="VFB" x="15.24" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="GND" x="15.24" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="0" y="5.842" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.842" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PIC18(L)F45K50-?(44PIN)" prefix="U">
@@ -1381,6 +1395,27 @@ Source: Microchip Packaging Specification, revision CE
 <connect gate="G$1" pin="RA2" pad="4"/>
 <connect gate="G$1" pin="VDD" pad="5"/>
 <connect gate="G$1" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP16251/2(6PIN)" prefix="U">
+<description>&lt;strong&gt;Low Quiescent Current, PFM/PWM Synchronous Boost Regulator with True Output Disconnect or Input/Output Bypass Option&lt;/strong&gt;</description>
+<gates>
+<gate name="G$1" symbol="MCP16251/2(6PIN)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="CH" package="SOT-23(CH/CHY/OT)">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="SW" pad="1"/>
+<connect gate="G$1" pin="VFB" pad="4"/>
+<connect gate="G$1" pin="VIN" pad="6"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
