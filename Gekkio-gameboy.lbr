@@ -156,7 +156,7 @@ Source: Manual measurements, trial and error
 <description>&lt;strong&gt;SOP28&lt;/strong&gt;
 
 &lt;p&gt;
-&lt;strong&gt;Not tested!&lt;/strong&gt;
+&lt;strong&gt;Tested&lt;/strong&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -235,7 +235,7 @@ Soldering footprint: Educated guesswork based on multiple SOP footprint recommen
 <description>&lt;strong&gt;QFP80&lt;/strong&gt;
 
 &lt;p&gt;
-&lt;strong&gt;Not tested!&lt;/strong&gt;
+&lt;strong&gt;Tested&lt;/strong&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
